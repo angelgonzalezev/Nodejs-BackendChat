@@ -7,7 +7,8 @@ const socket = require('./socket');
 const db = require('./db');
 const router = require ('./network/routes');
 
-db('mongodb+srv://db_user_cursonode:odwuW2UuXsExPzlx@cluster0-dgyux.mongodb.net/nodejsDDBB?retryWrites=true&w=majority');
+//Hay que espicicar la ruta de DB
+db('');
                                         
 
 app.use(bodyParser.json());
